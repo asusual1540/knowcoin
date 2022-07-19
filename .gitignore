@@ -1,1 +1,11 @@
 __pycache__/*
+backend/__pycache__/*
+backend/app/__pycache__/*
+backend/blockchain/__pycache__/*
+backend/scripts/__pycache__/*
+backend/util/__pycache__/*
+backend/wallet/__pycache__/*
+frontend/node_modules/*
+*.cpython-38.pyc
+*.pyc
+
