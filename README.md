@@ -17,9 +17,9 @@ flask run
 ```
 
 ## Starting the frontend server
-Navigate to frontend folder.
+Navigate to interface folder.
 ```
-cd frontend
+cd interface
 ```
 Install the dependencies.
 ```
