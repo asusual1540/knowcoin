@@ -5,7 +5,7 @@ backend/blockchain/__pycache__/*
 backend/scripts/__pycache__/*
 backend/util/__pycache__/*
 backend/wallet/__pycache__/*
-frontend/node_modules/*
+interface/node_modules/*
 *.cpython-38.pyc
 *.pyc
 

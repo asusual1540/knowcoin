@@ -84,7 +84,7 @@ def route_transactions():
     return jsonify(transaction_pool.transaction_data())
 
 
-ROOT_PORT = 5000
+ROOT_PORT = 5001
 PORT = ROOT_PORT
 
 if os.environ.get('PEER') == 'True':
@@ -107,7 +107,9 @@ if os.environ.get('SEED_DATA') == 'True':
             Transaction(Wallet(), Wallet().address, random.randint(2, 50))
         )
 
-   
-        
 
 app.run(port=PORT)
+
+
+
+
